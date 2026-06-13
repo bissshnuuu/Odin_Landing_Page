@@ -1,44 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-header{
+header {
     background-color: #1f2937;
 }
-.nav{
+
+.nav {
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
 }
-.nav ul{
+
+.nav ul {
     margin-top: 20px;
     width: 100%;
     height: auto;
-    display:flex;
+    display: flex;
     list-style: none;
     flex-direction: row;
 }
-.header-logo{
+
+.header-logo {
     font-size: 24px;
     color: #f9faf8;
     margin-right: auto;
     margin-left: 50px;
     font-weight: bolder;
 }
-.header-link{
+
+.header-link {
     margin-right: 60px;
 }
-.header-link a{
+
+.header-link a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
 }
 
-.hero-section{
+.hero-section {
     display: flex;
     flex-direction: row;
     height: 350px;
@@ -46,16 +51,19 @@ header{
     margin-top: 70px;
     padding-left: 50px;
 }
-.main-text{
-    font-size: 48px;    
+
+.main-text {
+    font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
-.secondary-text{
+
+.secondary-text {
     font-size: 18px;
     color: #E5E7EB;
 }
-.signup-btn{
+
+.signup-btn {
     background-color: #3882f6;
     border: 1px solid #3882f6;
     color: #f9faf8;
@@ -65,7 +73,8 @@ header{
     font-weight: bold;
     margin-top: 10px;
 }
-.image-section{
+
+.image-section {
     width: 650px;
     height: 250px;
     background-color: grey;
@@ -75,7 +84,8 @@ header{
     align-items: center;
     justify-content: center;
 }
-main .information-section{
+
+main .information-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,29 +96,35 @@ main .information-section{
     padding-left: 50px;
 }
 
-.information-header-text{
+.information-header-text {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
     padding: 20px;
 }
-.information-boxes{
+
+.information-boxes {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.box{
+
+.box {
     width: 100px;
     height: 100px;
     border: 1px solid #3882f6;
     border-radius: 4px;
     margin: auto;
 }
-.box1,.box2,.box3,.box4{
-     padding: 20px;
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    padding: 20px;
 }
 
-.quote-section{
+.quote-section {
     width: 100%;
     height: auto;
     display: flex;
@@ -124,7 +140,8 @@ main .information-section{
     padding: 50px;
     flex-wrap: wrap;
 }
-.quote-author{
+
+.quote-author {
     font-size: 18px;
     color: #1f2937;
     font-weight: 500;
@@ -133,13 +150,15 @@ main .information-section{
     margin-left: auto;
     margin-right: auto;
 }
-footer{
+
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
 }
-footer .footer{
+
+footer .footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +169,8 @@ footer .footer{
     border-radius: 3px;
     padding: 20px;
 }
-.fotsignup-btn{
+
+.fotsignup-btn {
     background-color: #3882f6;
     border: 1px solid white;
     color: #f9faf8;
@@ -160,12 +180,14 @@ footer .footer{
     font-weight: bold;
     margin-left: 30px;
 }
-.ctatxt{
+
+.ctatxt {
     font-size: 18px;
     color: #f9faf8;
     font-weight: 900;
 }
-.signup-text{
+
+.signup-text {
     color: #f9faf8;
     font-size: 18px;
 }
